@@ -1,0 +1,24 @@
+@import "~antd/dist/antd.css";
+
+.gridUploadImages {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding: 20px;
+}
+
+.avatar-uploader > .ant-upload {
+  width: 100%;
+  height: 100%;
+  min-height: 150px;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+.errorSelect > div {
+  border-color: rgb(245, 101, 101) !important;
+  border-width: 2px !important;
+}
